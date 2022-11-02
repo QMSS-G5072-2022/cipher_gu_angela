@@ -1,0 +1,23 @@
+:py:mod:`cipher_hg2589`
+=======================
+
+.. py:module:: cipher_hg2589
+
+
+Submodules
+----------
+.. toctree::
+   :titlesonly:
+   :maxdepth: 1
+
+   cipher_hg2589/index.rst
+
+
+Package Contents
+----------------
+
+.. py:data:: __version__
+   
+
+   
+

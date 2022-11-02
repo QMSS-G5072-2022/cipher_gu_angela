@@ -1,0 +1,42 @@
+:py:mod:`cipher_hg2589.cipher_hg2589`
+=====================================
+
+.. py:module:: cipher_hg2589.cipher_hg2589
+
+
+Module Contents
+---------------
+
+
+Functions
+~~~~~~~~~
+
+.. autoapisummary::
+
+   cipher_hg2589.cipher_hg2589.cipher
+
+
+
+.. py:function:: cipher(text, shift, encrypt=True)
+
+   Encrypts or decrypt the text
+   ----------
+   text: str
+       Input string to be encrypted or decrypted.
+   shift: int
+       Integer value for shifting.
+   encrypt: bool
+       A boolean to determine if encryption is required.
+   :returns: **new_text** -- The encrypted or decrypted text.
+   :rtype: str
+
+   .. rubric:: Examples
+
+   >>> from cipher_cy2617 import cipher
+   >>> text = str('Ag')
+   >>> shift = int(1)
+   >>> encrypt = False
+   >>> cipher_cy2617.cipher('Ag', 1, False)
+       'Bh'
+
+
